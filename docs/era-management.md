@@ -28,6 +28,9 @@ The following reporting objects derive age-related information from those source
 
 ## Architecture Diagram
 
+The diagram below shows the authoritative source hierarchy for all era-related data, reporting views and dependentr objects within the Forge database.
+
+
 ```mermaid
 flowchart TD
 
