@@ -14,8 +14,4 @@ subgraph Setup
     B[Validate Army]
 end
 
-subgraph Battle
-    C[Resolve Round]
-    D[Determine Winner]
-end
 ```
