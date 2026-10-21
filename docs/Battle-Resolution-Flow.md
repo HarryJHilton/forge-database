@@ -14,4 +14,4 @@ C -->|Yes| D[Create Battle]
 
 C -->|No| E[Reject Battle]
 
-```mermaid
+```
