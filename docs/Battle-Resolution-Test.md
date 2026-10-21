@@ -5,6 +5,12 @@ flowchart TD
 subgraph Setup
     A[Select Army]
     B[Validate Army]
-end
+
+subgraph Setup
+    A[Select Army]
+    B[Validate Army]
+subgraph Battle
+    C[Resolve Round]
+    D[Determine Winner]
 
 ```
