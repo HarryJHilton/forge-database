@@ -1,16 +1,21 @@
 # Test
 
 ```mermaid
+
 flowchart TD
-subgraph Setup
-    A[Select Army]
-    B[Validate Army]
 
-subgraph Setup
-    A[Select Army]
-    B[Validate Army]
-subgraph Battle
-    C[Resolve Round]
-    D[Determine Winner]
+A[Canonical Source]
+B[Reporting Layer]
+C[View]
 
+A --> B
+B --> C
+
+classDef source fill:#d4edda
+classDef report fill:#d1ecf1
+classDef view fill:#f8d7da
+
+class A source
+class B report
+class C view
 ```
