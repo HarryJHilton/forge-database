@@ -2,20 +2,19 @@
 
 ```mermaid
 
-flowchart TD
+flowchart LR
 
-A[Canonical Source]
-B[Reporting Layer]
-C[View]
+subgraph Database
+    A[forge_great_buildings]
+    B[forge_ages]
+end
 
-A --> B
+subgraph Views
+    C[forge_gb_base]
+    D[forge_dashboard]
+end
+
+A --> C
 B --> C
-
-classDef source fill:#d4edda
-classDef report fill:#d1ecf1
-classDef view fill:#f8d7da
-
-class A source
-class B report
-class C view
+B --> D
 ```
