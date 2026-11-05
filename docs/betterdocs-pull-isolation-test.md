@@ -1,9 +1,18 @@
 <h1>Betterdocs Pull Isolation Test</h1>
 
-<!-- wp:paragraph -->
-<p>Original BetterDocs content</p>
-<!-- /wp:paragraph -->
+Original BetterDocs content.
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
+## Pulled Markdown Heading
+
+This sentence contains **bold text**.
+
+- First pulled bullet
+- Second pulled bullet
+- Third pulled bullet
+
+|Item|Value|
+|---|--:|
+|Copper|100|
+|Gold|200|
+
+**Bold and underlined pull test.**Untitled 2
