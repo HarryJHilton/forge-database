@@ -149,10 +149,20 @@ def wp_block(element: Element) -> str:
             markup = markup.replace(f"<{tag}", f'<{tag} class="wp-block-list"', 1)
         return f"<!-- wp:list{attrs} -->\n{markup}\n<!-- /wp:list -->"
 
-    if tag == "table":
-        # BetterDocs renders this correctly, while Gutenberg's table block
-        # validation is sensitive to minor serialisation differences.
-        return f"<!-- wp:html -->\n{markup}\n<!-- /wp:html -->"
+        if tag == "table":
+            if "class=" not in markup.split(">", 1)[0]:
+                markup = markup.replace(
+                "<table",
+                '<table class="has-fixed-layout"',
+                1,
+            )
+        return (
+            "<!-- wp:core/table -->\n"
+            '<figure class="wp-block-table">\n'
+            f"{markup}\n"
+            "</figure>\n"
+            "<!-- /wp:core/table -->"
+        )
 
     if tag == "blockquote":
         if "class=" not in markup.split(">", 1)[0]:
