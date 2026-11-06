@@ -1,10 +1,10 @@
 <h1>Generated Pull Isolation Test V2</h1>
 
-<!--
+<p><!--
 GENERATED FILE - DO NOT EDIT DIRECTLY
 Source: docs/betterdocs-pull-isolation-test.md
 Title: Betterdocs Pull Isolation Test
--->
+--></p>
 
 <!-- wp:paragraph -->
 <p>Original BetterDocs content.</p>
@@ -18,12 +18,18 @@ Title: Betterdocs Pull Isolation Test
 <p>This sentence contains <strong>bold text</strong>.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul class="wp-block-list">
+<!-- wp:list {"className":"wp-block-list"} -->
+<ul class="wp-block-list"><!-- wp:list-item -->
 <li>First pulled bullet</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
 <li>Second pulled bullet</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
 <li>Third pulled bullet</li>
-</ul>
+<!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:html -->
@@ -49,4 +55,12 @@ Title: Betterdocs Pull Isolation Test
 
 <!-- wp:paragraph -->
 <p>Bold and underlined pull test.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><span style="text-decoration: underline;">Test for in editor underline</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
 <!-- /wp:paragraph -->
