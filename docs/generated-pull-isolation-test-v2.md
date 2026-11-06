@@ -1,5 +1,3 @@
-<h1>Generated Pull Isolation Test V2</h1>
-
 <!--
 GENERATED FILE - DO NOT EDIT DIRECTLY
 Source: docs/betterdocs-pull-isolation-test.md
@@ -26,8 +24,8 @@ Title: Betterdocs Pull Isolation Test
 </ul>
 <!-- /wp:list -->
 
-<!-- wp:html -->
-<table>
+<!-- wp:table -->
+<figure class="wp-block-table"><table>
 <thead>
 <tr>
 <th>Item</th>
@@ -44,8 +42,8 @@ Title: Betterdocs Pull Isolation Test
 <td style="text-align:right">200</td>
 </tr>
 </tbody>
-</table>
-<!-- /wp:html -->
+</table></figure>
+<!-- /wp:table -->
 
 <!-- wp:paragraph -->
 <p><strong><span style="text-decoration: underline;">Bold and underlined pull test.</span></strong></p>
