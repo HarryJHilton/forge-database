@@ -46,5 +46,5 @@ Title: Betterdocs Pull Isolation Test
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>**Bold and underlined pull test.**Untitled 2</p>
+<p>Bold and underlined pull test.</p>
 <!-- /wp:paragraph -->

@@ -15,4 +15,4 @@ This sentence contains **bold text**.
 |Copper|100|
 |Gold|200|
 
-**Bold and underlined pull test.**Untitled 2
+Bold and underlined pull test.
