@@ -176,6 +176,12 @@ def convert(markdown_text: str, source_name: str) -> tuple[str, list[str]]:
     """Return WordPress block markup and warnings for one Markdown document."""
 
     warnings: list[str] = []
+    markdown_text = re.sub(
+    r"<u>(.*?)</u>",
+    r'<span style="text-decoration: underline;">\1</span>',
+    markdown_text,
+    flags=re.DOTALL | re.IGNORECASE,
+)
     if WIKILINK_RE.search(markdown_text):
         warnings.append("Obsidian wikilinks were found and have not yet been converted.")
     if CALLOUT_RE.search(markdown_text):
