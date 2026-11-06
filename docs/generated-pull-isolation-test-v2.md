@@ -25,7 +25,7 @@ Title: Betterdocs Pull Isolation Test
 <!-- /wp:list -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table>
+<figure class="wp-block-table is-style-regular"><table class="has-fixed-layout">
 <thead>
 <tr>
 <th>Item</th>

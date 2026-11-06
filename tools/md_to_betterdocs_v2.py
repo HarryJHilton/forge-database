@@ -150,22 +150,21 @@ def wp_block(element: Element) -> str:
         return f"<!-- wp:list{attrs} -->\n{markup}\n<!-- /wp:list -->"
 
     if tag == "table":
-        # Match the native BetterDocs/WordPress table structure observed
-        # in the editor. Do not add has-fixed-layout here.
-        markup = re.sub(
-            r'<table[^>]*>',
-            '<table>',
-            markup,
-            count=1,
-            flags=re.IGNORECASE,
-        )
-        return (
-            "<!-- wp:table -->\n"
-            '<figure class="wp-block-table">'
-            f"{markup}"
-            "</figure>\n"
-            "<!-- /wp:table -->"
-        )
+            # Match the native Gutenberg table structure observed in BetterDocs.
+            markup = re.sub(
+                r"<table[^>]*>",
+                '<table class="has-fixed-layout">',
+                markup,
+                count=1,
+                flags=re.IGNORECASE,
+            )
+            return (
+                "<!-- wp:table -->\n"
+                '<figure class="wp-block-table is-style-regular">'
+                f"{markup}"
+                "</figure>\n"
+                "<!-- /wp:table -->"
+            )
 
     if tag == "blockquote":
         if "class=" not in markup.split(">", 1)[0]:
