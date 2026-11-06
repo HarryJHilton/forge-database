@@ -200,6 +200,12 @@ def convert(markdown_text: str, source_name: str) -> tuple[str, list[str]]:
     markdown_text,
     flags=re.DOTALL | re.IGNORECASE,
 )
+    markdown_text = re.sub(
+        r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]",
+        lambda m: m.group(2) or m.group(1),
+        markdown_text,
+    )
+    
     if WIKILINK_RE.search(markdown_text):
         warnings.append("Obsidian wikilinks were found and have not yet been converted.")
     if CALLOUT_RE.search(markdown_text):
