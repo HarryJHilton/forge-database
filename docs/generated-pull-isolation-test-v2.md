@@ -1,3 +1,5 @@
+<h1>Generated Pull Isolation Test V2</h1>
+
 <!--
 GENERATED FILE - DO NOT EDIT DIRECTLY
 Source: docs/betterdocs-pull-isolation-test.md
