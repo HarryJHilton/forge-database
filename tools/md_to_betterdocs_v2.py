@@ -157,6 +157,12 @@ def wp_block(element: Element) -> str:
                 markup,
                 count=1,
                 flags=re.IGNORECASE,
+            )   
+            markup = re.sub(
+                r'\s*style="text-align:[^"]*"',
+                "",
+                markup,
+                flags=re.IGNORECASE,
             )
             return (
                 "<!-- wp:table -->\n"

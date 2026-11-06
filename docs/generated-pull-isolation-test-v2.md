@@ -29,17 +29,17 @@ Title: Betterdocs Pull Isolation Test
 <thead>
 <tr>
 <th>Item</th>
-<th style="text-align:right">Value</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Copper</td>
-<td style="text-align:right">100</td>
+<td>100</td>
 </tr>
 <tr>
 <td>Gold</td>
-<td style="text-align:right">200</td>
+<td>200</td>
 </tr>
 </tbody>
 </table></figure>
