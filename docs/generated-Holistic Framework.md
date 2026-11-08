@@ -9,10 +9,10 @@ Source: docs/Holistic Framework.md
 
 <!-- wp:list -->
 <ul class="wp-block-list">
-<li>Summary</li>
-<li>GBG Battleground Buildings</li>
-<li>The Strategic Primacy of Buildings in Guild Battlegrounds</li>
-<li>The Tactical Importance of On-Map GBG Buildings</li>
+<li><a href="https://harryhilton.com/docs/summary/">Summary</a></li>
+<li><a href="https://harryhilton.com/docs/gbg-battleground-buildings/">GBG Battleground Buildings</a></li>
+<li><a href="https://harryhilton.com/docs/the-strategic-primacy-of-buildings-in-guild-battlegrounds/">The Strategic Primacy of Buildings in Guild Battlegrounds</a></li>
+<li><a href="https://harryhilton.com/docs/the-tactical-importance-of-on-map-gbg-buildings/">The Tactical Importance of On-Map GBG Buildings</a></li>
 </ul>
 <!-- /wp:list -->
 

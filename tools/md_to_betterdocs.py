@@ -61,6 +61,18 @@ BETTERDOCS_SLUGS = {
 
     "Great Buildings Prestige - What Changed":
         "great-buildings-prestige-what-changed",
+    
+       "Summary":
+        "summary",
+
+    "GBG Battleground Buildings":
+        "gbg-battleground-buildings",
+
+    "The Strategic Primacy of Buildings in Guild Battlegrounds":
+        "the-strategic-primacy-of-buildings-in-guild-battlegrounds",
+
+    "The Tactical Importance of On-Map GBG Buildings":
+        "the-tactical-importance-of-on-map-gbg-buildings",
 }
 
 WIKILINK_RE = re.compile(r"\[\[[^\]]+\]\]")
@@ -318,7 +330,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         args.source = Path("docs") / filename
 
     if args.destination is None:
-        args.destination = args.source.parent / f"generated-{args.source.name}"
+        args.destination = Path("betterdocs") / args.source.name
 
     try:
         safe_paths(args.source, args.destination)
