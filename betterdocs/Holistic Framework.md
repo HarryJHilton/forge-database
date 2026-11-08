@@ -51,24 +51,6 @@ Source: docs/Holistic Framework.md
 <h4 class="wp-block-heading">B. The Economic Model of GBG: The &quot;Guild as a Business&quot; Model</h4>
 <!-- /wp:heading -->
 
-<!-- wp:code -->
-<pre><code class="language-mermaid">flowchart TD
-    A[Individual Cities&lt;br/&gt;GBs • Goods • Resources]
-    B[Guild Treasury&lt;br/&gt;Central Resource Bank]
-    C[GBG Buildings&lt;br/&gt;HQ • Barracks • Traps]
-    D[Tactical Advantages&lt;br/&gt;VP Boosts &amp; Attrition Reduction]
-    E[Successful Campaigns&lt;br/&gt;Conquest &amp; League Progression]
-    F[Player Progression&lt;br/&gt;Stronger Cities &amp; GBs]
-
-    A --&gt;|Donate Goods| B
-    B --&gt;|Fund Construction| C
-    C --&gt;|Provide Bonuses| D
-    D --&gt;|Enable Success| E
-    E --&gt;|Rewards| F
-    F --&gt;|Produces More Resources| A
-</code></pre>
-<!-- /wp:code -->
-
 <!-- wp:paragraph -->
 <p>The operation of GBG reveals a clear economic cycle. Individual player cities, through their GBs and other buildings, are the primary source of resources. These resources, particularly goods, are donated to the guild treasury. The guild treasury, in turn, acts as the central bank that funds the construction of on-map buildings. These buildings then provide the tactical advantages—VP boosts and attrition reduction—that enable the guild to succeed in its campaigns. The rewards from these successful campaigns, such as league promotions and daily chests, feed back into player progression, strengthening the individual cities and restarting the cycle. This demonstrates that a successful guild is fundamentally a well-oiled economic machine, where every member's city serves a specific role in funding the collective effort.</p>
 <!-- /wp:paragraph -->

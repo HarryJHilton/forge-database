@@ -22,23 +22,6 @@ This strategic divergence is a crucial consideration for guild leaders and playe
 
 #### B. The Economic Model of GBG: The "Guild as a Business" Model
 
-```mermaid
-flowchart TD
-    A[Individual Cities<br/>GBs • Goods • Resources]
-    B[Guild Treasury<br/>Central Resource Bank]
-    C[GBG Buildings<br/>HQ • Barracks • Traps]
-    D[Tactical Advantages<br/>VP Boosts & Attrition Reduction]
-    E[Successful Campaigns<br/>Conquest & League Progression]
-    F[Player Progression<br/>Stronger Cities & GBs]
-
-    A -->|Donate Goods| B
-    B -->|Fund Construction| C
-    C -->|Provide Bonuses| D
-    D -->|Enable Success| E
-    E -->|Rewards| F
-    F -->|Produces More Resources| A
-```
-
 The operation of GBG reveals a clear economic cycle. Individual player cities, through their GBs and other buildings, are the primary source of resources. These resources, particularly goods, are donated to the guild treasury. The guild treasury, in turn, acts as the central bank that funds the construction of on-map buildings. These buildings then provide the tactical advantages—VP boosts and attrition reduction—that enable the guild to succeed in its campaigns. The rewards from these successful campaigns, such as league promotions and daily chests, feed back into player progression, strengthening the individual cities and restarting the cycle. This demonstrates that a successful guild is fundamentally a well-oiled economic machine, where every member's city serves a specific role in funding the collective effort.
 
 | Guild Goal      | Primary Objective           | Recommended HQ Building               | Recommended Provincial Building                   | Rationale                                                                                                                                                                               |
