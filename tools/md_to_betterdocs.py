@@ -41,6 +41,27 @@ except ImportError:  # pragma: no cover - friendly error for the user's PC
     )
     raise SystemExit(2)
 
+BETTERDOCS_BASE_URL = "https://harryhilton.com/docs"
+
+BETTERDOCS_SLUGS = {
+    "Great Buildings Prestige":
+        "great-buildings-prestige",
+
+    "Great Buildings Prestige - Arc Contributions And Sniping":
+        "great-buildings-prestige-arc-contributions-and-sniping",
+
+    "Great Buildings Prestige - Blueprints And Refinery":
+        "great-buildings-prestige-blueprints-and-refinery",
+
+    "Great Buildings Prestige - Gold GB Upgrade Priorities":
+        "great-buildings-prestige-gold-gb-upgrade-priorities",
+
+    "Gold Great Building Effects":
+        "great-buildings-prestige-gold-great-buildings-reference",
+
+    "Great Buildings Prestige - What Changed":
+        "great-buildings-prestige-what-changed",
+}
 
 WIKILINK_RE = re.compile(r"\[\[[^\]]+\]\]")
 CALLOUT_RE = re.compile(r"^\s*>\s*\[![A-Za-z0-9_-]+\]", re.MULTILINE)
@@ -182,8 +203,43 @@ def convert(markdown_text: str, source_name: str, keep_h1: bool = False) -> tupl
     """Return Gutenberg markup and warnings for one Markdown document."""
 
     warnings: list[str] = []
+    
+    markdown_text = re.sub(
+        r"<u>(.*?)</u>",
+        r'<span style="text-decoration: underline;">\1</span>',
+        markdown_text,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+ 
+    def convert_wikilink(match):
+        target = match.group(1).strip()
+        label = (match.group(2) or target).strip()
+
+        slug = BETTERDOCS_SLUGS.get(target)
+
+        if not slug:
+            return label
+
+        url = f"{BETTERDOCS_BASE_URL}/{slug}/"
+        return f"[{label}]({url})"
+
+
+    markdown_text = re.sub(
+        r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]",
+        convert_wikilink,
+        markdown_text,
+    )    
     if WIKILINK_RE.search(markdown_text):
         warnings.append("Obsidian wikilinks were found and have not yet been converted.")
+
+    markdown_text = re.sub(
+            r"(?m)^(\s*>\s*)\[!([A-Za-z0-9_-]+)\]\s*(.*)$",
+            lambda m: (
+                f"{m.group(1)}**{m.group(3).strip() or m.group(2).replace('-', ' ').title()}**"
+            ),
+            markdown_text,
+        )
+
     if CALLOUT_RE.search(markdown_text):
         warnings.append("Obsidian callouts were found and are rendered as ordinary blockquotes in version 1.")
 
@@ -230,8 +286,18 @@ def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Convert one Markdown file to BetterDocs-friendly Gutenberg block markup."
     )
-    parser.add_argument("source", type=Path, help="Source Markdown file, normally under docs/")
-    parser.add_argument("destination", type=Path, help="Generated file, normally under betterdocs/")
+    parser.add_argument(
+        "source",
+        type=Path,
+        nargs="?",
+        help="Source Markdown file. If omitted, the script will ask for a filename.",
+    )
+    parser.add_argument(
+        "destination",
+        type=Path,
+        nargs="?",
+        help="Generated output file. If omitted, it is created automatically.",
+    )
     parser.add_argument(
         "--keep-h1",
         action="store_true",
@@ -239,16 +305,33 @@ def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     )
     return parser.parse_args(argv)
 
-
+ 
 def main(argv: Iterable[str] | None = None) -> int:
     args = parse_args(argv)
+
+    if args.source is None:
+        filename = input("File to convert: ").strip().strip('"')
+
+        if not filename.lower().endswith(".md"):
+            filename += ".md"
+
+        args.source = Path("docs") / filename
+
+    if args.destination is None:
+        args.destination = args.source.parent / f"generated-{args.source.name}"
+
     try:
         safe_paths(args.source, args.destination)
+
         if not args.source.is_file():
             raise FileNotFoundError(f"Source file not found: {args.source}")
 
         markdown_text = args.source.read_text(encoding="utf-8-sig")
-        output, warnings = convert(markdown_text, args.source.as_posix(), args.keep_h1)
+        output, warnings = convert(
+            markdown_text,
+            args.source.as_posix(),
+            args.keep_h1,
+        )
 
         args.destination.parent.mkdir(parents=True, exist_ok=True)
         args.destination.write_text(output, encoding="utf-8", newline="\n")
@@ -256,9 +339,12 @@ def main(argv: Iterable[str] | None = None) -> int:
         print(f"Converted: {args.source}")
         print(f"Generated: {args.destination}")
         print("Source file was not modified.")
+
         for warning in warnings:
             print(f"WARNING: {warning}")
+
         return 0
+
     except Exception as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1

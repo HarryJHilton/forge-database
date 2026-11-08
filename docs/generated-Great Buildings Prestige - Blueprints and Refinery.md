@@ -142,61 +142,63 @@ Source: docs/Great Buildings Prestige - Blueprints and Refinery.md
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table is-style-regular"><table class="has-fixed-layout">
+<figure class="wp-block-table">
+<table>
 <thead>
 <tr>
 <th>Refinement</th>
-<th>Each Good</th>
-<th>Total Goods</th>
-<th>Coins</th>
-<th>Supplies</th>
+<th style="text-align:right">Each Good</th>
+<th style="text-align:right">Total Goods</th>
+<th style="text-align:right">Coins</th>
+<th style="text-align:right">Supplies</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1st</td>
-<td>20</td>
-<td>100</td>
-<td>6,000</td>
-<td>6,000</td>
+<td style="text-align:right">20</td>
+<td style="text-align:right">100</td>
+<td style="text-align:right">6,000</td>
+<td style="text-align:right">6,000</td>
 </tr>
 <tr>
 <td>2nd</td>
-<td>40</td>
-<td>200</td>
-<td>12,000</td>
-<td>12,000</td>
+<td style="text-align:right">40</td>
+<td style="text-align:right">200</td>
+<td style="text-align:right">12,000</td>
+<td style="text-align:right">12,000</td>
 </tr>
 <tr>
 <td>3rd</td>
-<td>80</td>
-<td>400</td>
-<td>24,000</td>
-<td>24,000</td>
+<td style="text-align:right">80</td>
+<td style="text-align:right">400</td>
+<td style="text-align:right">24,000</td>
+<td style="text-align:right">24,000</td>
 </tr>
 <tr>
 <td>4th</td>
-<td>140</td>
-<td>700</td>
-<td>42,000</td>
-<td>42,000</td>
+<td style="text-align:right">140</td>
+<td style="text-align:right">700</td>
+<td style="text-align:right">42,000</td>
+<td style="text-align:right">42,000</td>
 </tr>
 <tr>
 <td>5th</td>
-<td>200</td>
-<td>1,000</td>
-<td>60,000</td>
-<td>60,000</td>
+<td style="text-align:right">200</td>
+<td style="text-align:right">1,000</td>
+<td style="text-align:right">60,000</td>
+<td style="text-align:right">60,000</td>
 </tr>
 <tr>
 <td><strong>Daily Total</strong></td>
-<td><strong>480</strong></td>
-<td><strong>2,400</strong></td>
-<td><strong>144,000</strong></td>
-<td><strong>144,000</strong></td>
+<td style="text-align:right"><strong>480</strong></td>
+<td style="text-align:right"><strong>2,400</strong></td>
+<td style="text-align:right"><strong>144,000</strong></td>
+<td style="text-align:right"><strong>144,000</strong></td>
 </tr>
 </tbody>
-</table></figure>
+</table>
+</figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
@@ -253,7 +255,7 @@ Source: docs/Great Buildings Prestige - Blueprints and Refinery.md
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote">
-<p>[!IMPORTANT] Do not assume a large stock of Copper Blueprints is now disposable.</p>
+<p><strong>Do not assume a large stock of Copper Blueprints is now disposable.</strong></p>
 <p>Prestige gives those Blueprint stocks a new use.</p>
 </blockquote>
 <!-- /wp:quote -->
