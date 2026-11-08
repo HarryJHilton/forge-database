@@ -8,7 +8,7 @@ Source: docs/Holistic Framework.md
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list">
+<ul ist">
 <li><a href="https://harryhilton.com/docs/summary/">Summary</a></li>
 <li><a href="https://harryhilton.com/docs/gbg-battleground-buildings/">GBG Battleground Buildings</a></li>
 <li><a href="https://harryhilton.com/docs/the-strategic-primacy-of-buildings-in-guild-battlegrounds/">The Strategic Primacy of Buildings in Guild Battlegrounds</a></li>
@@ -33,13 +33,9 @@ Source: docs/Holistic Framework.md
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
-<ol class="wp-block-list">
-<li>
-<p><strong>VP-Centric (Competitive) Strategy</strong>: This strategy is for guilds aiming to secure a top ranking. The primary objective is to maximize Victory Points per hour. The strategy centres on immediately constructing the highest-tier HQ building and then focusing on conquering and fortifying high-value, central sectors with multiple building slots. Provincial building choices will prioritize those that generate Victory Points, such as the Fortified Guild Command Post, or those that reduce attrition for advancing units, like Barracks. The goal is to secure a dominant position and hold it for the duration of the season.</p>
-</li>
-<li>
-<p><strong>Attrition-Centric (Farming) Strategy:</strong> This strategy prioritizes individual player rewards over guild ranking. The objective is to maximize the number of fights each member can complete. Building choices will focus on attrition-reducing structures to enable members to fight as many battles as possible and farm rewards like FPs and goods.</p>
-</li>
+<ol ist">
+<li><strong>VP-Centric (Competitive) Strategy</strong>: This strategy is for guilds aiming to secure a top ranking. The primary objective is to maximize Victory Points per hour. The strategy centres on immediately constructing the highest-tier HQ building and then focusing on conquering and fortifying high-value, central sectors with multiple building slots. Provincial building choices will prioritize those that generate Victory Points, such as the Fortified Guild Command Post, or those that reduce attrition for advancing units, like Barracks. The goal is to secure a dominant position and hold it for the duration of the season.</li>
+<li><strong>Attrition-Centric (Farming) Strategy:</strong> This strategy prioritizes individual player rewards over guild ranking. The objective is to maximize the number of fights each member can complete. Building choices will focus on attrition-reducing structures to enable members to fight as many battles as possible and farm rewards like FPs and goods.</li>
 </ol>
 <!-- /wp:list -->
 
@@ -115,7 +111,7 @@ Source: docs/Holistic Framework.md
 <!-- /wp:heading -->
 
 <!-- wp:list {"ordered":true} -->
-<ol class="wp-block-list">
+<ol ist">
 <li>Build the strongest HQ available as early as possible.</li>
 <li>Secure central, high-value provinces before peripheral sectors.</li>
 <li>Foster a treasury economy through member contribution and GB development.</li>
@@ -143,7 +139,7 @@ Source: docs/Holistic Framework.md
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul class="wp-block-list">
+<ul ist">
 <li>Early investment often focuses on the Arc due to its contribution to rewards and guild support.</li>
 <li>Combat-oriented players frequently add the Statue of Zeus as an affordable source of attack bonuses.</li>
 <li>As cities mature, buildings such as Alcatraz and the Arctic Orangery become increasingly valuable for sustaining large volumes of combat.</li>

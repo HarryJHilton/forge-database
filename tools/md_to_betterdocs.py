@@ -184,10 +184,22 @@ def wp_block(element: Element) -> str:
 
     if tag in {"ul", "ol"}:
         attrs = ' {"ordered":true}' if tag == "ol" else ""
-        if "class=" not in markup.split(">", 1)[0]:
-            markup = markup.replace(f"<{tag}", f'<{tag} class="wp-block-list"', 1)
-        return f"<!-- wp:list{attrs} -->\n{markup}\n<!-- /wp:list -->"
 
+        markup = re.sub(
+            r"<li>\s*<p>(.*?)</p>\s*</li>",
+            r"<li>\1</li>",
+            markup,
+            flags=re.DOTALL,
+        )
+
+        if "class=" not in markup.split(">", 1)[0]:
+            markup = markup.replace(
+                f"<{tag}",
+                f'<{tag} ist"',
+                1,
+            )
+
+        return f"<!-- wp:list{attrs} -->\n{markup}\n<!-- /wp:list -->"
     if tag == "table":
         return (
             '<!-- wp:table -->\n'
