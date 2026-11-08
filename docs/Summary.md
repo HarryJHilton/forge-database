@@ -1,3 +1,5 @@
+<h1>Summary</h1>
+
 Buildings constitute the foundational strategic and tactical framework for success in Forge of Empires Guild Battlegrounds (GBG). 
 
 Victory is determined by the accumulation of Victory Points (VP), not by the simple volume of territory held. A guild's ability to generate and protect these points is directly tied to the strategic deployment of on-map buildings and the synergistic development of individual players' cities through Great Buildings (GBs). 
