@@ -339,7 +339,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         if not filename.lower().endswith(".md"):
             filename += ".md"
 
-        args.source = Path("docs") / filename
+        args.source = Path("source docs") / filename
 
     if args.destination is None:
         args.destination = Path("betterdocs") / args.source.name
