@@ -73,6 +73,12 @@ BETTERDOCS_SLUGS = {
 
     "The Tactical Importance of On-Map GBG Buildings":
         "the-tactical-importance-of-on-map-gbg-buildings",
+        
+    "Prestige - What Changed": "great-buildings-prestige-what-changed",
+    "Prestige - Arc Contributions and Sniping": "great-buildings-prestige-arc-contributions-and-sniping",
+    "Prestige - Blueprints and Refinery": "great-buildings-prestige-blueprints-and-refinery",
+    "Prestige - Gold GB Upgrade Priorities": "great-buildings-prestige-gold-gb-upgrade-priorities",
+    "Prestige - Gold Great Buildings Reference": "great-buildings-prestige-gold-great-buildings-reference",   
 }
 
 WIKILINK_RE = re.compile(r"\[\[[^\]]+\]\]")

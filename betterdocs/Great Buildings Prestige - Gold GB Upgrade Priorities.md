@@ -24,7 +24,7 @@ Source: source docs/Great Buildings Prestige - Gold GB Upgrade Priorities.md
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>See Prestige - What Changed for an explanation of the Prestige system itself.</p>
+<p>See <a href="https://harryhilton.com/docs/great-buildings-prestige-what-changed/">Prestige - What Changed</a> for an explanation of the Prestige system itself.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -249,7 +249,7 @@ Source: source docs/Great Buildings Prestige - Gold GB Upgrade Priorities.md
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>See Prestige - Arc Contributions and Sniping.</p>
+<p>See <a href="https://harryhilton.com/docs/great-buildings-prestige-arc-contributions-and-sniping/">Prestige - Arc Contributions and Sniping</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -649,7 +649,7 @@ Source: source docs/Great Buildings Prestige - Gold GB Upgrade Priorities.md
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>See Prestige - Blueprints and Refinery.</p>
+<p>See <a href="https://harryhilton.com/docs/great-buildings-prestige-blueprints-and-refinery/">Prestige - Blueprints and Refinery</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -772,10 +772,10 @@ Source: source docs/Great Buildings Prestige - Gold GB Upgrade Priorities.md
 
 <!-- wp:list -->
 <ul ist">
-<li>Prestige - What Changed</li>
-<li>Prestige - Gold Great Buildings Reference</li>
-<li>Prestige - Blueprints and Refinery</li>
-<li>Prestige - Arc Contributions and Sniping</li>
+<li><a href="https://harryhilton.com/docs/great-buildings-prestige-what-changed/">Prestige - What Changed</a></li>
+<li><a href="https://harryhilton.com/docs/great-buildings-prestige-gold-great-buildings-reference/">Prestige - Gold Great Buildings Reference</a></li>
+<li><a href="https://harryhilton.com/docs/great-buildings-prestige-blueprints-and-refinery/">Prestige - Blueprints and Refinery</a></li>
+<li><a href="https://harryhilton.com/docs/great-buildings-prestige-arc-contributions-and-sniping/">Prestige - Arc Contributions and Sniping</a></li>
 <li>Prestige - Migration and Existing GBs</li>
 </ul>
 <!-- /wp:list -->
