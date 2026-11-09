@@ -1,70 +1,139 @@
 <h1>Great Buildings Prestige   What Changed</h1>
 
-f you logged in and wondered what happened to your Great Buildings, don't panic.
+<!--
+GENERATED FILE - DO NOT EDIT DIRECTLY
+Source: source docs/Great Buildings Prestige - What Changed.md
+-->
 
-The new **Great Buildings Prestige** system has arrived and changes how Great Buildings are levelled, how blueprints work and how contribution rewards are calculated.
+<!-- wp:paragraph -->
+<p>f you logged in and wondered what happened to your Great Buildings, don't panic.</p>
+<!-- /wp:paragraph -->
 
-## What You Need to Know
+<!-- wp:paragraph -->
+<p>The new <strong>Great Buildings Prestige</strong> system has arrived and changes how Great Buildings are levelled, how blueprints work and how contribution rewards are calculated.</p>
+<!-- /wp:paragraph -->
 
-### Every Great Building is now Copper
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What You Need to Know</h2>
+<!-- /wp:heading -->
 
-All Great Buildings start in the **Copper Tier**.
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Every Great Building is now Copper</h3>
+<!-- /wp:heading -->
 
-Copper effects can continue growing up to level 200.
+<!-- wp:paragraph -->
+<p>All Great Buildings start in the <strong>Copper Tier</strong>.</p>
+<!-- /wp:paragraph -->
 
-### 21 Great Buildings can become Gold
+<!-- wp:paragraph -->
+<p>Copper effects can continue growing up to level 200.</p>
+<!-- /wp:paragraph -->
 
-Selected Great Buildings enter the new **Gold Tier at level 101**.
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">21 Great Buildings can become Gold</h3>
+<!-- /wp:heading -->
 
-Going Gold unlocks a completely new effect in addition to the building's existing effects.
+<!-- wp:paragraph -->
+<p>Selected Great Buildings enter the new <strong>Gold Tier at level 101</strong>.</p>
+<!-- /wp:paragraph -->
 
-Gold effects include new bonuses for GBG, GE, QI, goods, rewards and Great Building contributions.
+<!-- wp:paragraph -->
+<p>Going Gold unlocks a completely new effect in addition to the building's existing effects.</p>
+<!-- /wp:paragraph -->
 
-### Level 101 now matters
+<!-- wp:paragraph -->
+<p>Gold effects include new bonuses for GBG, GE, QI, goods, rewards and Great Building contributions.</p>
+<!-- /wp:paragraph -->
 
-For Gold-enabled Great Buildings, reaching level 101 unlocks the new Gold effect.
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Level 101 now matters</h3>
+<!-- /wp:heading -->
 
-That makes level 101 an important new strategic target.
+<!-- wp:paragraph -->
+<p>For Gold-enabled Great Buildings, reaching level 101 unlocks the new Gold effect.</p>
+<!-- /wp:paragraph -->
 
-### Blueprints are now more valuable
+<!-- wp:paragraph -->
+<p>That makes level 101 an important new strategic target.</p>
+<!-- /wp:paragraph -->
 
-Existing blueprints are now **Copper Blueprints**.
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Blueprints are now more valuable</h3>
+<!-- /wp:heading -->
 
-Gold Great Buildings require **Gold Blueprints**, which can be earned through Gold contribution rewards and created using the new Blueprint Refinery.
+<!-- wp:paragraph -->
+<p>Existing blueprints are now <strong>Copper Blueprints</strong>.</p>
+<!-- /wp:paragraph -->
 
-Don't automatically dispose of large stocks of Copper Blueprints. They now have another use.
+<!-- wp:paragraph -->
+<p>Gold Great Buildings require <strong>Gold Blueprints</strong>, which can be earned through Gold contribution rewards and created using the new Blueprint Refinery.</p>
+<!-- /wp:paragraph -->
 
-### Contributions have changed
+<!-- wp:paragraph -->
+<p>Don't automatically dispose of large stocks of Copper Blueprints. They now have another use.</p>
+<!-- /wp:paragraph -->
 
-Copper and Gold Great Buildings use different Contribution Boosts.
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Contributions have changed</h3>
+<!-- /wp:heading -->
 
-Copper levels reward the top 5 positions, while Gold levels can reward the top 7.
+<!-- wp:paragraph -->
+<p>Copper and Gold Great Buildings use different Contribution Boosts.</p>
+<!-- /wp:paragraph -->
 
-We will look separately at what this means for Arc owners, 1.9/2.0 threads and sniping.
+<!-- wp:paragraph -->
+<p>Copper levels reward the top 5 positions, while Gold levels can reward the top 7.</p>
+<!-- /wp:paragraph -->
 
-### Levelling has changed
+<!-- wp:paragraph -->
+<p>We will look separately at what this means for Arc owners, 1.9/2.0 threads and sniping.</p>
+<!-- /wp:paragraph -->
 
-Very high Great Building levels now require considerably fewer Forge Points than before, but Gold progression also requires other resources and Copper and Gold Blueprint sets.
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Levelling has changed</h3>
+<!-- /wp:heading -->
 
-The progression economy has therefore changed substantially.
+<!-- wp:paragraph -->
+<p>Very high Great Building levels now require considerably fewer Forge Points than before, but Gold progression also requires other resources and Copper and Gold Blueprint sets.</p>
+<!-- /wp:paragraph -->
 
-## What Should I Do?
+<!-- wp:paragraph -->
+<p>The progression economy has therefore changed substantially.</p>
+<!-- /wp:paragraph -->
 
-For the moment:
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What Should I Do?</h2>
+<!-- /wp:heading -->
 
-- Don't panic.
-- Don't delete anything hastily.
-- Don't burn through your Blueprint stocks.
-- Check which of your GBs can become Gold.
-- Pay particular attention to GBs around level 100.
-- Don't assume your old upgrade priorities are still correct.
+<!-- wp:paragraph -->
+<p>For the moment:</p>
+<!-- /wp:paragraph -->
 
-We will break the new system down into smaller guides rather than expecting everyone to digest the entire official announcement.
+<!-- wp:list -->
+<ul ist">
+<li>Don't panic.</li>
+<li>Don't delete anything hastily.</li>
+<li>Don't burn through your Blueprint stocks.</li>
+<li>Check which of your GBs can become Gold.</li>
+<li>Pay particular attention to GBs around level 100.</li>
+<li>Don't assume your old upgrade priorities are still correct.</li>
+</ul>
+<!-- /wp:list -->
 
-## Next
+<!-- wp:paragraph -->
+<p>We will break the new system down into smaller guides rather than expecting everyone to digest the entire official announcement.</p>
+<!-- /wp:paragraph -->
 
-- [[Prestige - What Should I Do First]]
-- [[Prestige - Gold GB Upgrade Priorities]]
-- [[Prestige - Gold Great Buildings Reference]]
-- [[Prestige - Blueprints and Refinery]]
-- [[Prestige - Arc Contributions and Sniping]]****
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Next</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul ist">
+<li>Prestige - What Should I Do First</li>
+<li>Prestige - Gold GB Upgrade Priorities</li>
+<li>Prestige - Gold Great Buildings Reference</li>
+<li>Prestige - Blueprints and Refinery</li>
+<li>Prestige - Arc Contributions and Sniping****</li>
+</ul>
+<!-- /wp:list -->
