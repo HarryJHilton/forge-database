@@ -72,12 +72,6 @@
 <p>The easiest way to understand the new system is to start with the problem rather than the name of the feature.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:details -->
-<details class="wp-block-details"><summary></summary><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">I want to see everything I can currently upgrade in my city</h3>
-<!-- /wp:heading --></details>
-<!-- /wp:details -->
-
 <!-- wp:paragraph -->
 <p><strong>Start with: Build → Upgrade</strong></p>
 <!-- /wp:paragraph -->
@@ -118,8 +112,8 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">I want to understand a particular building and its upgrade path</h3>
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">I want to understand a particular building and its upgrade path</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -134,8 +128,8 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">I know I own a building but cannot find it</h3>
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">I know I own a building but cannot find it</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -150,8 +144,8 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">I can do something, but I am not sure whether I should</h3>
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">I can do something, but I am not sure whether I should</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -204,8 +198,8 @@
 <h2 class="wp-block-heading has-large-font-size">Guide use-flow</h2>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">WHAT DO YOU WANT TO DO?</h3>
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">WHAT DO YOU WANT TO DO?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -228,9 +222,9 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:paragraph -->
-<p><strong>See whether a particular item can be used</strong></p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size"><strong>See whether a particular item can be used</strong></h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>↓<br><strong>INVENTORY</strong></p>
@@ -272,9 +266,9 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:paragraph -->
-<p><strong>Understand one building family</strong></p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size"><strong>Understand one building family</strong></h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>↓<br><strong>BUILDING MANAGEMENT</strong></p>
@@ -316,9 +310,9 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:paragraph -->
-<p><strong>Find a particular building</strong></p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size"><strong>Find a particular building</strong></h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>↓<br><strong>VIEW</strong></p>
