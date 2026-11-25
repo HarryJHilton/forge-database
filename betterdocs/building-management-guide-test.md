@@ -90,8 +90,8 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">I have an item in Inventory and want to know whether I can use it</h3>
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">I have an item in Inventory and want to know whether I can use it</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
