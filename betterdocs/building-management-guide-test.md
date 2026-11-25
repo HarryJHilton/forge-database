@@ -4,8 +4,8 @@
 <div class="wp-block-essential-blocks-infobox  root-eb-infobox-7d0xn"><div class="eb-parent-wrapper eb-parent-eb-infobox-7d0xn "><div class="eb-infobox-7d0xn eb-infobox-wrapper"><div class="infobox-wrapper-inner"><div class="contents-wrapper"><h2 class="title"></h2><p class="description"><strong>Tested on iPad</strong> using examples from the author's own city. Your buildings, upgrade levels, kits and available options will differ. PC/browser verification is pending.</p></div></div></div></div></div>
 <!-- /wp:essential-blocks/infobox -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Introduction: Building Management has changed more than one screen</h2>
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Introduction: Building Management has changed more than one screen</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -64,17 +64,19 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">What are you trying to do?</h2>
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">What are you trying to do?</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>The easiest way to understand the new system is to start with the problem rather than the name of the feature.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary></summary><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">I want to see everything I can currently upgrade in my city</h3>
-<!-- /wp:heading -->
+<!-- /wp:heading --></details>
+<!-- /wp:details -->
 
 <!-- wp:paragraph -->
 <p><strong>Start with: Build → Upgrade</strong></p>
@@ -198,8 +200,8 @@
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Guide use-flow</h2>
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Guide use-flow</h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
